@@ -1,4 +1,4 @@
-from Cliente.Interface import interface
+from Interface import interface
 
 
 def main():

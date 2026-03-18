@@ -1,6 +1,5 @@
-import Servidor.Maquina.maquina as  maquina
-
-
+from Servidor.Maquina import maquina
+import math
 def main():
     _maquina=maquina.Maquina()
     _maquina.execute()

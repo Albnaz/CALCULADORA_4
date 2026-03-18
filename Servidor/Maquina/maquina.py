@@ -5,7 +5,7 @@ import socket
 import json
 class Maquina:
     def __init__(self):
-        self.port=5050
+        self.port=9999
         self.somar= somar.Somar()
         self.subtrair= subtrair.Subtrair()
         self.multiplicar= multiplicar.Multiplicar()
@@ -13,8 +13,8 @@ class Maquina:
         self.raiz= raiz.Raiz()
         self.COMMAND_SIZE = 9
         self.INT_SIZE = 8
-        self.PORT = 9999
-        self.SERVER_ADDRESS = "10.1.58.181"
+        self.PORT = 3500
+        self.SERVER_ADDRESS = "127.0.0.1"
 
     def receive_int(self,connection, n_bytes: int) -> int:
         """
@@ -74,43 +74,72 @@ class Maquina:
             print("On accept...")
             connection, address = s.accept()
             print("Client " + str(address) + " just connected")
-            last_request = False
+
             #Recebe messagens...
+            last_request=False
             while not last_request:
                 request_type = self.receive_str(connection,self.COMMAND_SIZE)
-                if request_type == "add      ":
-
-                    a = self.receive_int(connection,self.INT_SIZE)
-                    b = self.receive_int(connection,self.INT_SIZE)
-                    print("Pediram para somar:",a,"+",b)
-                    result = a + b
-                    self.send_int(connection,result,self.INT_SIZE)
-
-                elif request_type =="sub      ":
-                    a = self.receive_int(connection,self.INT_SIZE)
-                    b = self.receive_int(connection,self.INT_SIZE)
-                    print("Pediram para subtrair:",a,"-",b)
-                    result = a-b
-                    self.send_int(connection,result,self.INT_SIZE)
-                elif request_type == "add_obj  ":
+                if request_type == "add_obj  ":
                     dicionary = self.receive_object(connection)
+                    if type(dicionary)==dict:
+                        if dicionary["oper"]=="+":
+                            result=dicionary["op1"]+dicionary["op2"]
+                            dicionary["result"]=result
+                            self.send_object(connection,dicionary)
+                        elif dicionary["oper"]=="-":
+                            result=dicionary["op1"]-dicionary["op2"]
+                            dicionary["result"]=result
+                            self.send_object(connection,dicionary)
 
-                    if dicionary["oper"]=="+":
-                        result=dicionary["op1"]+dicionary["op2"]
-                        self.send_int(connection,result,self.INT_SIZE)
-                    elif dicionary["oper"]=="-":
-                        result=dicionary["op1"]-dicionary["op2"]
-                        self.send_int(connection,result, self.INT_SIZE)
-                    else:
-                        print("erro")
+                        elif dicionary["oper"]=="x":
+                            result=dicionary["op1"]*dicionary["op2"]
+                            dicionary["result"]=result
+                            self.send_object(connection,dicionary)
 
+                        elif dicionary["oper"]=="/":
+                            result=dicionary["op1"]/dicionary["op2"]
+                            dicionary["result"]=result
+                            self.send_object(connection,dicionary)
+
+                        elif dicionary["oper"]=="*":
+                            result=dicionary["op1"]**(1/2)
+                            dicionary["result"] = result
+                            self.send_object(connection, dicionary)
+
+                        else:
+                            print("erro")
+                    elif type(dicionary)==list:
+                        if dicionary[0] == "+":
+                            result = dicionary[1] + dicionary[2]
+                            dicionary.append(result)
+                            self.send_object(connection, dicionary)
+                        elif dicionary[0] == "-":
+                            result = dicionary[1] - dicionary[2]
+                            dicionary.append(result)
+                            self.send_object(connection, dicionary)
+
+                        elif dicionary[0] == "x":
+                            result = dicionary[1] * dicionary[2]
+                            dicionary.append(result)
+                            self.send_object(connection, dicionary)
+
+                        elif dicionary[0] == "/":
+                            result = dicionary[1] / dicionary[2]
+                            dicionary.append(result)
+                            self.send_object(connection, dicionary)
+
+                        elif dicionary[0] == "*":
+                            result = dicionary[1] ** (1 / 2)
+                            dicionary.append(result)
+                            self.send_object(connection, dicionary)
+
+                        else:
+                            print("erro")
                 elif request_type =="bye      ":
                     print("Last request...")
                     last_request = True
-                    #keep_running = False
-                elif request_type == "END_OP":
-                    last_request = True
-                    #keep_running = False
+                    keep_running = False
+
         print("Stopping...")
         s.close()
         print("Server stopped")

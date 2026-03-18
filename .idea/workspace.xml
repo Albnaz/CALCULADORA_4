@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2037528a-5db0-40b2-a9a0-f5e0dc407bc1" name="Changes" comment="" />
+    <list default="true" id="2037528a-5db0-40b2-a9a0-f5e0dc407bc1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cliente/Interface/interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cliente/Interface/interface.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cliente/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cliente/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servidor/Maquina/maquina.py" beforeDir="false" afterPath="$PROJECT_DIR$/Servidor/Maquina/maquina.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cliente/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cliente/__main__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cliente/interface/interface.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main2.py" beforeDir="false" afterPath="$PROJECT_DIR$/main2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servidor/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/servidor/maquinas/maquina.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/servidor/operacoes/dividir.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/servidor/operacoes/somar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/servidor/operacoes/subtrair.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +34,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;PhMiguelAlbernaz&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/PhMiguelAlbernaz/CALCULADORA_4.git&quot;,
+    &quot;accountId&quot;: &quot;7762679d-a2b9-43c1-b770-add12a63cc28&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -36,8 +62,10 @@
     &quot;Python.main2.executor&quot;: &quot;Run&quot;,
     &quot;Python.maquina.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
     &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/banana joe/Desktop/CALCULADORA_3-20260225&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -56,8 +84,8 @@
       <recent name="C:\Users\banana joe\Desktop\CALCULADORA_3-20260225\Servidor" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="__main__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.__main__">
+    <configuration name="__main__" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="CALCULADORA_3-20260225" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -66,8 +94,9 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Cliente" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -81,7 +110,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main2" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="CALCULADORA_3-20260225" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -90,13 +119,13 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Cliente/Interface" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Cliente/Interface/main2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -130,6 +159,13 @@
       <workItem from="1772476559397" duration="7590000" />
       <workItem from="1772530186537" duration="16838000" />
       <workItem from="1772625110861" duration="2499000" />
+      <workItem from="1773678244182" duration="589000" />
+      <workItem from="1773679929966" duration="414000" />
+      <workItem from="1773684577595" duration="2529000" />
+      <workItem from="1773689783755" duration="1324000" />
+      <workItem from="1773780452441" duration="1540000" />
+      <workItem from="1773789593007" duration="148000" />
+      <workItem from="1773790352203" duration="5197000" />
     </task>
     <servers />
   </component>
@@ -147,8 +183,21 @@
       </map>
     </option>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Cliente/__main__.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CALCULADORA_3_20260225$main2.coverage" NAME="main2 Coverage Results" MODIFIED="1772627848165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../CALCULADORA_3-20260225_Alterada/Cliente" />
+    <SUITE FILE_PATH="coverage/CALCULADORA_4$main2.coverage" NAME="main2 Coverage Results" MODIFIED="1773793926758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CALCULADORA_4$__main__.coverage" NAME="__main__ Coverage Results" MODIFIED="1773793929169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Cliente" />
     <SUITE FILE_PATH="coverage/CALCULADORA_3_20260225$interface.coverage" NAME="interface Coverage Results" MODIFIED="1772552206624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Cliente/Interface" />
     <SUITE FILE_PATH="coverage/CALCULADORA_3_20260225$__main__.coverage" NAME="__main__ Coverage Results" MODIFIED="1772627854951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../CALCULADORA_3-20260225_Alterada/Cliente" />
     <SUITE FILE_PATH="coverage/CALCULADORA_3_20260225$maquina.coverage" NAME="maquina Coverage Results" MODIFIED="1772550624129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Servidor/Maquina" />
