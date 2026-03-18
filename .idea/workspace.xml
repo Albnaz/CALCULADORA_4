@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2037528a-5db0-40b2-a9a0-f5e0dc407bc1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cliente/Interface/interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cliente/Interface/interface.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cliente/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cliente/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Servidor/Maquina/maquina.py" beforeDir="false" afterPath="$PROJECT_DIR$/Servidor/Maquina/maquina.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cliente/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cliente/__main__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cliente/interface/interface.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main2.py" beforeDir="false" afterPath="$PROJECT_DIR$/main2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servidor/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/servidor/maquinas/maquina.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/servidor/operacoes/dividir.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/servidor/operacoes/somar.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/servidor/operacoes/subtrair.py" beforeDir="false" />
-    </list>
+    <list default="true" id="2037528a-5db0-40b2-a9a0-f5e0dc407bc1" name="Changes" comment="commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -166,7 +152,25 @@
       <workItem from="1773780452441" duration="1540000" />
       <workItem from="1773789593007" duration="148000" />
       <workItem from="1773790352203" duration="5197000" />
+      <workItem from="1773826656696" duration="224000" />
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <option name="closed" value="true" />
+      <created>1773826692338</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1773826692338</updated>
+    </task>
+    <task id="LOCAL-00002" summary="commit">
+      <option name="closed" value="true" />
+      <created>1773826793178</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1773826793178</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +186,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
